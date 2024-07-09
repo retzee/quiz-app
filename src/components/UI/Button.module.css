@@ -1,0 +1,36 @@
+.custom_button {
+    border: 0;
+    background: #FF9900;
+    border-radius: 8px;
+    box-shadow: 0 6px 0 #434343;
+    color: #000;
+    cursor: pointer;
+    font: inherit;
+    outline: 0;
+    padding: 10px 45px;
+    transition: all .1s linear;
+}
+
+.custom_button:hover {
+  box-shadow: 0 2px 0 #434343;
+  transform: translateY(2px);
+}
+
+
+.custom_red_button {
+  border: 0;
+  background: #660101;
+  border-radius: 8px;
+  box-shadow: 0 6px 0 #434343;
+  color: #fff;
+  cursor: pointer;
+  font: inherit;
+  outline: 0;
+  padding: 10px 45px;
+  transition: all .1s linear;
+}
+
+.custom_red_button:hover {
+box-shadow: 0 2px 0 #434343;
+transform: translateY(2px);
+}
