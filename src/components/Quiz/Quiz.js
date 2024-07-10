@@ -43,7 +43,7 @@ const Quiz = (props) => {
             answerCtx.addAnswer(newAnswer); 
 
             if(currentQuestionNo === totalQuestionCount){
-                // LAST QUESTION IN THE ARRAY : CLOSE QUIZ AFTER PROCESSING
+                // LAST QUESTION IN THE ARRAY : CLOSE QUIZ AFTER PROCESSING...
                 const currentTotalScore = answerCtx.totalAnswerScore;
                 const newTotalScore = (isCorrect === true) ? currentTotalScore + 1: currentTotalScore;
                 const currentScorePercent = newTotalScore / totalQuestionCount * 100;
